@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+      to bottom,
+      rgb(11, 10, 10),
+      rgba(90, 74, 74, 0.729)
+    ),
+    url(https://images.unsplash.com/photo-1557214997-7eae7e0e7aaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  background-position: center;
+  height: 70rem;
+  position: relative;
+}
+
+section,
+input,
+input::placeholder,
+button {
+  color: white;
+}
+
+section {
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+  background-color: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1,
+label,
+button {
+  width: 100%;
+}
+
+i,
+input,
+button {
+  font-size: 3rem;
+  padding: 0.6rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+  border-bottom: 1rem solid #4caf50;
+}
+
+label {
+  margin: 5rem 0;
+  display: block;
+  border-bottom: 0.2rem solid #4caf50;
+}
+
+i {
+  padding-right: 1.5rem;
+}
+
+input {
+  border: none;
+}
+
+button {
+  border: 0.4rem solid #4caf50;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+input,
+button {
+  background-color: transparent;
+}
